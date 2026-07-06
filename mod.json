@@ -1,0 +1,21 @@
+name: "sword-deities-swordium-assisters"
+displayName: "PHIGHTING! [#ff5959[]]SWORD [[]]DEITIES: [#ff5959[]]SWORDIUM [[]]ASSISTERS"
+author: BlueDoves3821
+description: '''
+[#ff5959[]]PREPARE YOURSELF!
+
+[#ffffff[]]A mod add-on for the [#ff5959[]]sword [#ffffff[]]deities mod.
+
+Create [#ff5959[]]swordium [#ffffff[]]assisters to apply status effects to units.
+
+originally, this add-on was supposed to be added in the main mod, but i decided to seperate it, mainly because of how powerful it can be.
+
+[red[]]note: this add-on requires the [#ff5959[]]sword [red[]]deities mod to operate!
+'''
+version: "1"
+subtitle: "i have a [#ff5959[]]sword!"
+minGameVersion: "136.1"
+dependencies: [
+sword-deities-mod
+]
+hideBrowser: true
