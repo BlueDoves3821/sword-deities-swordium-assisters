@@ -1,0 +1,17 @@
+name: "[#A4C360]Venomshank's []Tanker"
+description: '''
+[#A4C360]Venomshank []has given you tank levels of  protection, 8x max health, but move half as slow.
+'''
+speedMultiplier: 0.5
+healthMultiplier: 8
+effect: {
+    type: ParticleEffect
+    particles: 2
+    colorFrom: A4C36040
+    colorTo: A4C36000
+    sizeFrom: 2
+    sizeTo: 1
+    strokeFrom: 4
+    strokeTo: 0
+    lifetime: 180
+}

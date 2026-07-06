@@ -1,0 +1,27 @@
+name: "[#97CCE1]Icedagger's []Freezeheal"
+description: '''
+[#97CCE1]Icedagger []heals you, but also slowed you down by 75 percent.
+'''
+speedMultiplier: 0.25
+damage: -3.34
+affinities: [
+wet
+freezing
+]
+opposites: [
+burning
+melting
+firebrands-burnspeed
+]
+effect: {
+    type: MultiEffect
+    effects:[freezing, {
+    type: steam
+    colorFrom: 97CCE1ff
+    colorTo: 97CCE100
+    sizeTo: 1
+    strokeFrom: 4
+    lifetime: 24
+    }
+    ]
+}

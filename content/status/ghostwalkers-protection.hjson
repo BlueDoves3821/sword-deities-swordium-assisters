@@ -1,0 +1,17 @@
+name: "[#C2C2C2]Ghostwalker's []Protection"
+description: '''
+[#C2C2C2]Ghostwalker []has given you protection, halved reload time & 3x health.
+'''
+reloadMultiplier: 2
+healthMultiplier: 3
+effect: {
+    type: ParticleEffect
+    particles: 2
+    colorFrom: C2C2C240
+    colorTo: C2C2C200
+    sizeFrom: 2
+    sizeTo: 1
+    strokeFrom: 4
+    strokeTo: 0
+    lifetime: 180
+}

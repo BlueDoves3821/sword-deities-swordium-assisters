@@ -1,0 +1,26 @@
+name: "[#861C00]Firebrand's []Burnspeed"
+description: '''
+[#861C00]Firebrand []gave you 6x speed, but also the equivalent of 10 burning status stacked on top.
+'''
+speedMultiplier: 6
+damage: 1.67
+transitionDamge: 1
+affinities: [
+tarred
+]
+opposites: [
+wet
+freezing
+]
+effect: {
+    type: MultiEffect
+    effects:[burning, {
+    type: coreBurn
+    colorFrom: 861C00ff
+    colorTo: 861C0000
+    sizeTo: 1
+    strokeFrom: 4
+    lifetime: 24
+    }
+    ]
+}
