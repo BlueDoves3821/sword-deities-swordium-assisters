@@ -1,0 +1,82 @@
+Name: "[#ff5959]Swordium []Assister Factory"
+description: '''
+Constructs [#ff5959]swordium []assisters, what status it'll use depends on what deity material you use, each unit gives around 5 minutes of status effect.
+'''
+type: UnitFactory
+size: 2
+consumesPower: false
+plans: [
+  {
+    unit: swordium-assister-darkheartium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-darkheartium/10
+    ]
+ }
+  {
+    unit: swordium-assister-firebrandium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-firebrandium/10
+    ]
+ }
+  {
+    unit: swordium-assister-ghostwalkerium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-ghostwalkerium/10
+    ]
+ }
+  {
+    unit: swordium-assister-icedaggerium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-icedaggerium/10
+    ]
+ }
+  {
+    unit: swordium-assister-illuminaium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-illuminaium/10
+    ]
+ }
+  {
+    unit: swordium-assister-swordium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/60
+    ]
+ }
+  {
+    unit: swordium-assister-venomshankium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-venomshankium/10
+    ]
+ }
+  {
+    unit: swordium-assister-windforceium
+    time: 120
+    requirements: [
+sword-deities-mod-swordium/50
+sword-deities-mod-windforceium/10
+    ]
+ }
+]
+requirements: [
+sword-deities-mod-swordium/200
+]
+  research: {
+    parent: sword-deities-mod-swordium-buildings
+    requirements: [
+      sword-deities-mod-swordium/200
+]
+}
+category: units
