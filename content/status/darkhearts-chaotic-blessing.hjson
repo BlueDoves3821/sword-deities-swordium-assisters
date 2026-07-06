@@ -1,0 +1,18 @@
+name: '''
+[#70AC30]Darkheart's []Chaotic "Blessing"
+'''
+description: '''
+[#70AC30]Darkheart []felt lucky on you, quick reload time & quadriple max health, but, in true [#70AC30]darkheart []fashion, there's a cost to it.
+'''
+healthMultiplier: 4
+reloadMultiplier: 5
+damage: 2.5
+effect: {
+  length: 30
+  lifetime: 50
+  particles: 1
+  colorFrom: 70AC3030
+  colorTo: 78787800
+  sizeFrom: 4
+  sizeTo: 0
+}
