@@ -1,0 +1,52 @@
+type: flying
+name: '''
+[#ff5959]Swordium []Assister [#97CCE1](Icedaggerium)
+'''
+description: '''
+Assists units with it's status ability, cannot defend itself, also cannot give itself the status it puts out.
+'''
+envDisabled: 0
+hidden: false
+health: 100
+speed: 7
+rotateSpeed: 5
+hitSize: 6
+flying: true
+defaultController: DefenderAI
+drawCell: false
+immunities: [
+sword-deities-mod-darkhearts-curse
+darkhearts-chaotic-blessing
+firebrands-burnspeed
+icedaggers-freezeheal
+windforces-quickshot
+venomshanks-tanker
+sword-deities-mod-illuminas-power
+sword-deities-mod-swords-might
+]
+engineSize: 0
+engines: [
+  {
+    x: 0
+    y: -6
+    radius: 2
+    rotation: 270
+  } 
+] 
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: icedaggers-freezeheal
+    reload: 300
+    color: 97CCE1ff
+    range: 50
+    duration: 3000
+  }
+]
+  research: {
+    parent: swordium-assister-factory
+    requirements: [
+      sword-deities-mod-swordium/50
+      sword-deities-mod-icedaggerium/10
+]
+}
