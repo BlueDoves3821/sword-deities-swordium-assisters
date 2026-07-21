@@ -17,15 +17,15 @@ And depending on what material you use, it'll produce 8 types of assisters that 
   <img src="sprites/units/swordium-assister-venomshankium.png" width="75">
   <img src="sprites/units/swordium-assister-windforceium.png" width="75">
 </p>
-From being a slow-movimg tank with the venomshank's tanker.
+From being a slow-moving tank with the venomshank's tanker.
 <p align="center">
   <img src="sprites/status/venomshanks-tanker.png" width="100">
 </p>
-To move 6x the usual speed, but have the equalivent of 10 burning status stacked on top of itselves with the firebrand's burnspeed.
+To having 6x movement speed, but have the equalivent of 10 burning status stacked on top of itselves with the firebrand's burnspeed.
 <p align="center">
   <img src="sprites/status/firebrands-burnspeed.png" width="100">
 </p>
-And finally, to have an extremly short reload speed with windforce's quickshot.
+And finally, to have an extremely short reload speed with windforce's quickshot.
 <p align="center">
   <img src="sprites/status/windforces-quickshot.png" width="100">
 </p>
