@@ -1,9 +1,9 @@
 name: "[#861C00]Firebrand's []Burnspeed"
 description: '''
-[#861C00]Firebrand []gave you 6x speed, but also the equivalent of 10 burning status stacked on top.
+[#861C00]Firebrand []gave you 6x speed, but also the equivalent of 3 burning statuses stacked on top.
 '''
 speedMultiplier: 6
-damage: 1.67
+damage: 0.501
 transitionDamge: 1
 affinities: [
 tarred
