@@ -4,15 +4,8 @@ description: '''
 '''
 speedMultiplier: 0.75
 damage: -3.34
-affinities: [
-wet
-freezing
-]
-opposites: [
-burning
-melting
-firebrands-burnspeed
-]
+affinities: [wet]
+opposites: [burning, melting, firebrands-burnspeed]
 effect: {
     type: MultiEffect
     effects:[freezing, {

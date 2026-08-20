@@ -4,14 +4,9 @@ description: '''
 '''
 speedMultiplier: 6
 damage: 0.501
-transitionDamge: 1
-affinities: [
-tarred
-]
-opposites: [
-wet
-freezing
-]
+transitionDamage: 10
+affinities: [tarred]
+opposites: [wet, freezing]
 effect: {
     type: MultiEffect
     effects:[burning, {
