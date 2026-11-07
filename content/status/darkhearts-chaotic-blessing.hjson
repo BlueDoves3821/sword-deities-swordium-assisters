@@ -9,6 +9,7 @@ reloadMultiplier: 5
 damageMultiplier: 5
 speedMultiplier: 0.95
 damage: 2.5
+outline: false
 effect: {
   length: 30
   lifetime: 50

@@ -4,6 +4,7 @@ description: '''
 '''
 reloadMultiplier: 2
 healthMultiplier: 3
+outline: false
 effect: {
     type: ParticleEffect
     particles: 2

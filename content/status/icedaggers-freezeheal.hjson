@@ -6,6 +6,7 @@ speedMultiplier: 0.75
 damage: -3.34
 affinities: [wet]
 opposites: [burning, melting, firebrands-burnspeed]
+outline: false
 effect: {
     type: MultiEffect
     effects:[freezing, {

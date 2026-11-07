@@ -2,7 +2,8 @@ name: "[#929EAE]Windforce's []Quickshot"
 description: '''
 [#929EAE]Windforce []has given you hyper-speed reload time.
 '''
-reloadMultiplier: 50
+reloadMultiplier: 75
+outline: false
 effect: {
 		type: WaveEffect
 		colorFrom: 929EAE40
