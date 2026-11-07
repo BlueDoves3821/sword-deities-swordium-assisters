@@ -14,6 +14,7 @@ hitSize: 6
 flying: true
 defaultController: DefenderAI
 drawCell: false
+engineColor: FF5959
 immunities: [
 sword-deities-mod-darkhearts-curse
 darkhearts-chaotic-blessing

@@ -16,6 +16,7 @@ flying: true
 defaultController: DefenderAI
 drawCell: false
 targetable: false
+engineColor: C2C2C2
 immunities: [
 sword-deities-mod-darkhearts-curse
 darkhearts-chaotic-blessing
