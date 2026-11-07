@@ -4,7 +4,7 @@ This mod is an add-on for the [PHIGHTING! SWORD DEITIES](https://github.com/Blue
 ## It's Time To Assist!
 This add-on adds the swordium assister factory to the game.
 <p align="center">
-  <img src="sprites/blocks/production/swordium-assister-factory.png" width="100">
+  <img src="sprites/blocks/production/swordium-assister-factory-icon.png" width="100">
 </p>
 And depending on what material you use, it'll produce 8 types of assisters that give 5 minutes of status effects.
 <p align="center">
